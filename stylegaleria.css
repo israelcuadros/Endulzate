@@ -39,17 +39,17 @@ header h1{
 }
 header h1 a{
     text-decoration: none;
-    color:rgb(145, 82, 58); ;
+    color:rgb(145, 82, 58); 
 }
 nav{
-    background-color: rgb(255, 160, 122);
+    background-color:rgb(243, 125, 79);
     display: flex;
     padding: 15px;
 }
 
 nav a
-{   color: #ebe7e9;
-    background-color:rgba(255, 160, 122, 0.075);
+{   color: #ffffff;
+    background-color:rgb(243, 125, 79);
     padding: 10px;
     margin-top: 20px;
     margin-right: 15px;
@@ -57,7 +57,7 @@ nav a
     border-radius: 25px;
 }
 
-nav a:hover{background-color: #eb8e71cc;}
+nav a:hover{background-color: #922f10cc;}
 .logo img a{
     text-decoration: none;
 }
@@ -94,6 +94,36 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+.minigomas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.minigomas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 125%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; 
+
+}
+
+
 .vgomas{
     position: absolute;
     top: 50%;
@@ -110,6 +140,35 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+
+.vgomas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.vgomas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 125%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
+
 .mixgomas{
     position: absolute;
     top: 50%;
@@ -126,6 +185,34 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+.mixgomas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.mixgomas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 125%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
+
 .chococandy{
     position: absolute;
     top: 150%;
@@ -143,6 +230,33 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+.chococandy  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.chococandy p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
 .chocobox{
     position: absolute;
     top: 150%;
@@ -160,6 +274,33 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+.chocobox  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.chocobox p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
 .bandejagomas{
     position: absolute;
     top: 150%;
@@ -177,6 +318,33 @@ main{
     transform: scale(1.1);
     transition: all 0.2s;
 }
+.bandejagomas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 30%;
+    width: 230px;
+    height: auto;
+    display: block; 
+}
+.bandejagomas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
 .kitemergencia{
     position: absolute;
     top: 255%;
@@ -194,6 +362,32 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.kitemergencia  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 0px;
+    width: 280px;
+    height: auto;
+    display: block; 
+}
+.kitemergencia p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
 .bizcopizza{
     position: absolute;
     top: 255%;
@@ -211,6 +405,32 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.bizcopizza  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 55px;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.bizcopizza p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
 .cupcake{
     position: absolute;
     top: 255%;
@@ -228,6 +448,33 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.cupcake  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 55px;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.cupcake p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
 .vfresas{
     position: absolute;
     top: 355%;
@@ -245,6 +492,32 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.vfresas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 55px;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.vfresas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
 .bfrutas{
     position: absolute;
     top: 355%;
@@ -262,6 +535,33 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.bfrutas  h4{
+
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 0px;
+    width: 280px;
+    height: auto;
+    display: block; 
+}
+.bfrutas p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
+
 .cerubox{
     position: absolute;
     top: 355%;
@@ -279,7 +579,32 @@ main{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.cerubox  h4{
 
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing: 10px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    top: 410%;
+    left: 50px;
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+.cerubox p{
+    width: 20px;
+    color:rgb(145, 82, 58);  
+    word-spacing:0px; 
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    width: 250px;
+    height: auto;
+    display: block; }
 
 .pie-de-pagina {
     background-color: #88543ef3;
@@ -287,7 +612,6 @@ main{
     padding: 20px ;
     /* position: fixed; */
     width: 100%;
-
 }
 
 .pie-de-pagina .contenedor {
@@ -320,6 +644,7 @@ main{
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 15px;
 }
 
 .pie-de-pagina nav ul li a:hover {
