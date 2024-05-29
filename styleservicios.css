@@ -81,11 +81,20 @@ filter: invert(#4f1801);
 }
 .derecha{
     width: 40%;
+    display: flexbox;
 }
 .derecha p{
-    color: #68321bd8;
-    word-spacing: 5px;
-    text-align: center;
-    margin-left: -13px;
-    margin-right: 81px;
+color: #68321bd8;
+text-align: center;
+width: 180px;
+margin-top: 50px;
+column-count: 2;
+column-gap: 200px;
+padding-top: 20px;
+
+}
+.derecha h2{
+width:400px;
+text-align: center;
+color: #68321bd8;
 }
