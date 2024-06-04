@@ -98,3 +98,20 @@ width:400px;
 text-align: center;
 color: #68321bd8;
 }
+
+.row2{
+    display: flex;
+}
+
+.derecha2{
+    width: 50%;
+    background-color: rgb(243, 125, 79);
+}
+.derecha2 img{
+    width: 95%;
+    margin: 15px;
+}
+.izquierda2{
+   color: #68321bd8;
+    width: 50%;}    
+
