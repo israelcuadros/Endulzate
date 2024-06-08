@@ -7,60 +7,58 @@
     <link rel="stylesheet" href="Styleformulario.css">
 </head>
 <body>
-   
-    <div class="container">
-        <div class="form-container">
-            <img src="images/ICONOSYOTROS/EndulzateLogo.png" alt="Logo" class="logo">
-            <h2>Compra de producto</h2>
-            <form action="/submit_form" method="post">
-                <div class="form-group">
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre y apellido" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
-                </div>
-                <div class="form-group">
-                    <label for="number">Número</label>
-                    <input type="tel" id="number" name="number" placeholder="Ingrese su teléfono" required>
-                </div>
-                <div class="form-group">
-                    <label for="products">Productos</label>
-                    <input type="text" id="products" name="products" placeholder="Ingrese los productos" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" name="message" rows="2" placeholder="Ingrese su mensaje (esto podría tener algunos botones para la dirección)" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="address">Dirección</label>
-                    <input type="text" id="address" name="address" placeholder="Ingrese la dirección" required>
-                </div>
-                <div class="form-group">
-                    <label for="payment">Método de pago</label>
-                    <select id="payment" name="payment" required>
-                        <option value="">--Seleccione--</option>
-                        <option value="credit_card">Tarjeta de Crédito</option>
-                        <option value="paypal">PayPal</option>
-                        <option value="cash">Efectivo</option>
-                    </select>
-                </div>
-                <div class="form-group terms">
-                    <input type="checkbox" id="terms" name="terms" required>
-                    <label for="terms">Acepto los términos y condiciones</label>
-                </div>
-                <button type="submit">Enviar la solicitud</button>
-            </form>
-        </div>
-    </div>
-    
-        <div class="image-container">
-            <img src="images/ICONOSYOTROS/desayunopruebafondo.png" alt="">
-        </div>
-    
-    </div>
-
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <a href="index.html"><img src="images/ICONOSYOTROS/EndulzateLogo.png" alt="Logo" class="logo"></a>
+                <h2>Compra de producto</h2>
+                <form action="/submit_form" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Ingrese su nombre y apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Número</label>
+                        <input type="tel" id="number" name="number" placeholder="Ingrese su teléfono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="products">Productos</label>
+                        <input type="text" id="products" name="products" placeholder="Ingrese los productos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="2" placeholder="Ingrese su mensaje (esto podría tener algunos botones para la dirección)" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Dirección</label>
+                        <input type="text" id="address" name="address" placeholder="Ingrese la dirección" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="payment">Método de pago</label>
+                        <select id="payment" name="payment" required>
+                            <option value="">--Seleccione--</option>
+                            <option value="credit_card">Tarjeta de Crédito</option>
+                            <option value="paypal">PSE</option>
+                            <option value="cash">Efectivo</option>
+                        </select>
+                    </div>
+                    <div class="form-group terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Acepto los términos y condiciones</label>
+                    </div>
+                    <button type="submit">Enviar la solicitud</button>
+                </form>
+            </div>
+            <div class="image-container">
+                
+                <img src="images/ICONOSYOTROS/desayunopruebafondo.png" alt="">
+            </div>
+        </div>  
+    </main>
     <footer>
         <p>Aceptando los términos y condiciones usted acepta la política de tratamiento de datos personales y demás disposiciones. Será contactado en las próximas 24 horas por un representante de ventas a través de WhatsApp u otro medio de contacto. Para más información puede llamar al siguiente número xxxxxxxx</p>
     </footer>
