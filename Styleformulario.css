@@ -34,6 +34,10 @@ main {
 .container .logo{
     width: 70px;
 }
+.container .logo:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
 .container h2{
     margin-left: 25%;
 }

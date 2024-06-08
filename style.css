@@ -12,7 +12,7 @@ html{
     font-size: 25px;
    /*  background-color: #fdcae1a9; */
    background-color: #ebe7e942;
-    margin: 1%;
+  /*   margin: 1%; */
      
 }
 body{
@@ -58,7 +58,7 @@ nav a:hover{background-color: #922f10cc;}
 .search-container {
     margin-top: 25px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 600px;
   }
   
   input[type="text"] {
@@ -100,7 +100,12 @@ img{ width: 100%;}
     
     
 }
+/* .izquierda h2{
+    color: #ca1010;
+} */ /* verificar mejores colores  */
+
 .izquierda p{
+
     font-size: 20px;
     word-spacing: 7px;
     margin-left: 10px;
@@ -253,10 +258,10 @@ img{ width: 100%;}
             }
             .derechatres video{
                 
-                width  :49%;
-                height: 92%;
+                width  :50%;
+                height: auto;
                 object-fit: cover;
-                position: absolute;
+                position: absolute; 
                 margin-left: 0%;
                 
             }
